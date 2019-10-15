@@ -9,6 +9,7 @@ func main() {
 	fmt.Println(Solution(561892))
 }
 
+// Solution for BinaryGap problem: https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
 func Solution(N int) int {
 
 	s := strconv.FormatInt(int64(N), 2)

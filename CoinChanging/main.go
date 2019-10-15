@@ -17,6 +17,7 @@ func main() {
 	fmt.Println(Solution([]int{1, 3, 4, 5, 6}, 6))
 }
 
+// Solution for Coin Changing problem from https://codility.com/media/train/15-DynamicProgramming.pdf
 func Solution(C []int, k int) int {
 	n := len(C) + 1
 	dp := make([][]int, n)
